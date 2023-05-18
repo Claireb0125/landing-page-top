@@ -1,0 +1,13 @@
+header {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
