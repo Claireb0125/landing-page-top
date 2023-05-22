@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(font/Roboto-Regular.ttf) format('truetype');
+}
+
 body {
     background-color: #1F4564;
     margin: 0px;
+    font-family: 'Roboto';
 }
 
 header {
@@ -8,16 +14,19 @@ header {
     font-size: 18px;
     color: #F9FAF8;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 25px;
-    padding: 15px;
-    padding-bottom: 60px;
+li {
     list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logo {
+    cursor: pointer;
 }
 
