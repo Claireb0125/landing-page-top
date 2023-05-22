@@ -4,20 +4,20 @@
 }
 
 body {
-    background-color: #1F4564;
     margin: 0px;
     font-family: 'Roboto';
+    color: white;
 }
 
 header {
     background-color: #1F2937;
-    font-size: 18px;
+    font-size: 14px;
     color: #F9FAF8;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 10%;
 }
 
 li {
@@ -28,5 +28,47 @@ li {
 
 .logo {
     cursor: pointer;
+    max-width: 220px;
 }
 
+a {
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+ 
+a:hover {
+    color: antiquewhite;
+}
+
+.top_wrapper {
+    background-color: #1F2937;
+    padding: 70px 10%;
+    display: flex;
+}
+
+.top_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0%;
+}
+
+.top_img {
+   padding: 25px;
+   margin-bottom: 20px;
+   margin-top: -35px;
+}
+
+.flower {
+    max-width: 600px;
+    border-radius: 18px;
+}
+
+button {
+
+}
